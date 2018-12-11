@@ -1,0 +1,15 @@
+[
+{
+  "modid": "mymod",
+  "name": "My Mod",
+  "description": "My Not So Fancy Mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["HooDie"],
+  "credits": "HooDie",
+  "logoFile": "",
+  "screenshots": []
+}
+]
