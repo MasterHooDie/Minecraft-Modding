@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: deobf.com.github.mcjty:intwheel:1.12-1.2.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/deobf/com/github/mcjty/intwheel/1.12-1.2.7/intwheel-1.12-1.2.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/deobf/com/github/mcjty/intwheel/1.12-1.2.7/intwheel-1.12-1.2.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
