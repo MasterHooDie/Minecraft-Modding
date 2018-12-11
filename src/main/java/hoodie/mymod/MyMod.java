@@ -20,7 +20,7 @@ public class MyMod {
     @SidedProxy(clientSide = "hoodie.mymod.proxy.ClientProxy", serverSide = "hoodie.mymod.proxy.ServerProxy")
     public static CommonProxy proxy;
 
-    public static CreativeTabs creativeTab = new CreativeTabs("My Mod") {
+    public static CreativeTabs creativeTab = new CreativeTabs("mymod") {
         @Override
         public ItemStack createIcon() {
             return new ItemStack(ModBlocks.blockFastFurnace);
