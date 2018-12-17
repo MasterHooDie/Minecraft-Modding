@@ -50,6 +50,7 @@ public class BlockFastFurnace extends Block implements ITileEntityProvider {
         super(Material.IRON);
         //mymod:fast_furnace
         setRegistryName(FAST_FURNACE);
+        setHardness(5.0F);
         setHarvestLevel("pickaxe",1);
         setCreativeTab(MyMod.creativeTab);
         setTranslationKey(MyMod.MODID + ".fast_furnace");
