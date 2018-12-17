@@ -1,8 +1,9 @@
 package hoodie.mymod.furnace;
 
+import hoodie.mymod.config.FastFurnaceConfig;
 import hoodie.mymod.network.Messages;
-import hoodie.mymod.network.PacketSyncPower;
-import hoodie.mymod.tools.IEnergyContainer;
+import hoodie.mymod.network.PacketSyncMachineState;
+import hoodie.mymod.tools.IMachineStateContainer;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.inventory.Container;
@@ -14,7 +15,7 @@ import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
 
-public class ContainerFastFurnace extends Container implements IEnergyContainer {
+public class ContainerFastFurnace extends Container implements IMachineStateContainer {
 
     private TileFastFurnace te;
 
@@ -110,32 +111,24 @@ public class ContainerFastFurnace extends Container implements IEnergyContainer 
     @Override
     public void detectAndSendChanges() {
         super.detectAndSendChanges();
-        if (te.getProgress() != te.getClientProgress()) {
-            te.setClientProgress(te.getProgress());
-            for (IContainerListener listener : listeners) {
-                listener.sendWindowProperty(this, PROGRESS_ID, te.getProgress());
-            }
-        }
-        if (te.getEnergy() != te.getClientEnergy()) {
+
+        if ((te.getProgress() != te.getClientProgress()) || (te.getEnergy() != te.getClientEnergy())) {
             te.setClientEnergy(te.getEnergy());
+            te.setClientProgress(te.getProgress());
+
             for (IContainerListener listener : listeners) {
                 if (listener instanceof EntityPlayerMP) {
                     EntityPlayerMP player = (EntityPlayerMP) listener;
-                    Messages.INSTANCE.sendTo(new PacketSyncPower(te.getEnergy()), player);
+                    int pct = 100 - te.getProgress() * 100 / FastFurnaceConfig.MAX_PROGRESS;
+                    Messages.INSTANCE.sendTo(new PacketSyncMachineState(te.getEnergy(), pct), player);
                 }
             }
         }
     }
 
     @Override
-    public void updateProgressBar(int id, int data) {
-        if (id == PROGRESS_ID) {
-            te.setClientProgress(data);
-        }
-    }
-
-    @Override
-    public void syncPower(int energy) {
+    public void sync(int energy, int progress) {
         te.setClientEnergy(energy);
+        te.setClientProgress(progress);
     }
 }
