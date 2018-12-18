@@ -1,209 +1,203 @@
-[10:06:49] [main/INFO] [GradleStart]: Extra: []
-[10:06:49] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/bbond/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[10:06:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[10:06:49] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[10:06:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[10:06:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[10:06:49] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2775 for Minecraft 1.12.2 loading
-[10:06:49] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_191\jre
-[10:06:49] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[10:06:49] [main/ERROR] [FML]: Full: C:\Users\bbond\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[10:06:49] [main/ERROR] [FML]: Trimmed: c:/users/bbond/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[10:06:49] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[10:06:49] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[10:06:50] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[10:06:50] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[10:06:50] [main/INFO] [FML]: Searching C:\Users\bbond\Programming\Javascript\Tutorial\MyMod\run\.\mods for mods
-[10:06:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[10:06:50] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[10:06:50] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[10:06:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[10:06:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[10:06:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[10:06:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[10:06:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[10:06:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[10:06:52] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[10:06:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[10:06:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[10:06:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[10:06:52] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[10:06:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[10:06:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[10:06:52] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[10:06:53] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player868
-[10:06:57] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[10:06:57] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[10:06:57] [main/INFO] [FML]: -- System Details --
+[13:17:57] [main/INFO] [GradleStart]: Extra: []
+[13:17:57] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/bbond/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[13:17:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:17:57] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:17:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:17:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:17:57] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2775 for Minecraft 1.12.2 loading
+[13:17:57] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_191\jre
+[13:17:57] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[13:17:57] [main/ERROR] [FML]: Full: C:\Users\bbond\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[13:17:57] [main/ERROR] [FML]: Trimmed: c:/users/bbond/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[13:17:57] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:17:57] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[13:17:58] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[13:17:58] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[13:17:58] [main/INFO] [FML]: Searching C:\Users\bbond\Programming\Javascript\Tutorial\MyMod\run\.\mods for mods
+[13:17:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:17:58] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[13:17:58] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[13:17:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:17:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:17:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:17:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:17:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:17:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:18:00] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[13:18:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:18:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:18:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:18:00] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[13:18:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:18:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:18:00] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:18:01] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player805
+[13:18:05] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[13:18:05] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[13:18:06] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_191, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 213352520 bytes (203 MB) / 452984832 bytes (432 MB) up to 3780640768 bytes (3605 MB)
+	Memory: 201297624 bytes (191 MB) / 449314816 bytes (428 MB) up to 3780640768 bytes (3605 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel' Version: '4.5.0 - Build 24.20.100.6170' Renderer: 'Intel(R) UHD Graphics 620'
-[10:06:57] [main/INFO] [FML]: MinecraftForge v14.23.5.2775 Initialized
-[10:06:57] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[10:06:58] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[10:06:58] [main/INFO] [FML]: Searching C:\Users\bbond\Programming\Javascript\Tutorial\MyMod\run\.\mods for mods
-[10:07:00] [main/INFO] [FML]: Forge Mod Loader has identified 11 mods to load
-[10:07:00] [main/WARN] [FML]: ****************************************
-[10:07:00] [main/WARN] [FML]: * The API JustEnoughItemsAPI from source C:\Users\bbond\.gradle\caches\modules-2\files-2.1\mezz.jei\jei_1.12.2\4.13.1.222\f7672ddb5b7ac55ce3b49b55ad39977092737469\jei_1.12.2-4.13.1.222.jar is loaded from an incompatible classloader. THIS WILL NOT WORK!
-[10:07:00] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.ModAPIManager$APIContainer.validate(ModAPIManager.java:114)
-[10:07:00] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.ModAPIManager.registerDataTableAndParseAPI(ModAPIManager.java:174)
-[10:07:00] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.ModAPIManager.manageAPI(ModAPIManager.java:232)
-[10:07:00] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:567)
-[10:07:00] [main/WARN] [FML]: *  at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
-[10:07:00] [main/WARN] [FML]: *  at net.minecraft.client.Minecraft.init(Minecraft.java:513)...
-[10:07:00] [main/WARN] [FML]: ****************************************
-[10:07:00] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 71821087 nanos
-[10:07:00] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mymod, redstoneflux, theoneprobe, intwheel, jei, mcjtylib_ng, rftools] at CLIENT
-[10:07:00] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mymod, redstoneflux, theoneprobe, intwheel, jei, mcjtylib_ng, rftools] at SERVER
-[10:07:01] [main/ERROR] [FML]: The mod redstoneflux is expecting signature d4f1503fbacd9b9fb767720420c5395104239ec9 for source RedstoneFlux-1.12-2.0.0.1.jar, however there is no signature matching that description
-[10:07:02] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My Mod, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:The One Probe, FMLFileResourcePack:Interaction Wheel, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:McJtyLib, FMLFileResourcePack:RFTools
-[10:07:02] [main/INFO] [FML]: Processing ObjectHolder annotations
-[10:07:02] [main/INFO] [FML]: Found 1170 ObjectHolder annotations
-[10:07:02] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[10:07:02] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[10:07:02] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[10:07:02] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[10:07:02] [main/INFO] [theoneprobe]: The One Probe Detected RedstoneFlux: enabling support
-[10:07:02] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2796
-[10:07:06] [main/INFO] [mcjty.lib.varia.Logging]: Could not read 'userbuilder.json', this is not an error!
-[10:07:06] [main/INFO] [FML]: OBJLoader: Domain rftools has been added.
-[10:07:07] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mymod_fast_furnace`, expected `mymod`. This could be a intended override, but in most cases indicates a broken mod.
-[10:07:07] [main/INFO] [FML]: Applying holder lookups
-[10:07:07] [main/INFO] [FML]: Holder lookups applied
-[10:07:07] [main/INFO] [FML]: Applying holder lookups
-[10:07:07] [main/INFO] [FML]: Holder lookups applied
-[10:07:07] [main/INFO] [FML]: Applying holder lookups
-[10:07:07] [main/INFO] [FML]: Holder lookups applied
-[10:07:07] [main/INFO] [FML]: Applying holder lookups
-[10:07:07] [main/INFO] [FML]: Holder lookups applied
-[10:07:07] [main/INFO] [FML]: Injecting itemstacks
-[10:07:07] [main/INFO] [FML]: Itemstack injection complete
-[10:07:11] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[10:07:11] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[10:07:11] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:07:11] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[10:07:11] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[10:07:17] [main/INFO] [FML]: Max texture size: 16384
-[10:07:18] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
-[10:07:20] [main/INFO] [FML]: Applying holder lookups
-[10:07:20] [main/INFO] [FML]: Holder lookups applied
-[10:07:20] [main/INFO] [STDOUT]: [mcjty.lib.font.TrueTypeFont:<init>:119]: TrueTypeFont loaded: java.awt.Font[family=Ubuntu,name=Ubuntu,style=plain,size=40] - AntiAlias = false
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Enabled support for The One Probe
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Enabled support for The One Probe
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Enabled support for The Interaction Wheel
-[10:07:20] [main/INFO] [FML]: Injecting itemstacks
-[10:07:20] [main/INFO] [FML]: Itemstack injection complete
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class buildcraft.api.tools.IToolWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class resonant.core.content.ItemScrewdriver (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class ic2.core.item.tool.ItemToolWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class ic2.core.item.tool.ItemToolWrenchElectric (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mrtjp.projectred.api.IScrewdriver (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mods.railcraft.api.core.items.IToolCrowbar (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class com.bluepowermod.items.ItemScrewdriver (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class cofh.api.item.IToolHammer (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class thermalexpansion.item.tool.ItemWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class appeng.items.tools.quartz.ToolQuartzWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class crazypants.enderio.api.tool.ITool (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mekanism.api.IMekWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mcjty.rftools.items.smartwrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class pneumaticCraft.common.item.ItemPneumaticWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class powercrystals.minefactoryreloaded.api.IToolHammer (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class buildcraft.api.tools.IToolWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class resonant.core.content.ItemScrewdriver (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class ic2.core.item.tool.ItemToolWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class ic2.core.item.tool.ItemToolWrenchElectric (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mrtjp.projectred.api.IScrewdriver (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mods.railcraft.api.core.items.IToolCrowbar (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class com.bluepowermod.items.ItemScrewdriver (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class cofh.api.item.IToolHammer (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class thermalexpansion.item.tool.ItemWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class appeng.items.tools.quartz.ToolQuartzWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class crazypants.enderio.api.tool.ITool (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mekanism.api.IMekWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mcjty.rftools.items.smartwrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class pneumaticCraft.common.item.ItemPneumaticWrench (this is not an error)
-[10:07:20] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class powercrystals.minefactoryreloaded.api.IToolHammer (this is not an error)
-[10:07:20] [main/INFO] [jei]: Starting JEI...
-[10:07:20] [main/INFO] [jei]: Registering recipe categories...
-[10:07:20] [main/INFO] [jei]: Registering recipe categories took 33.78 ms
-[10:07:20] [main/INFO] [jei]: Registering mod plugins...
-[10:07:20] [main/INFO] [jei]: Registering mod plugins took 289.9 ms
-[10:07:20] [main/INFO] [jei]: Building recipe registry...
-[10:07:21] [main/INFO] [jei]: Building recipe registry took 105.1 ms
-[10:07:21] [main/INFO] [jei]: Building ingredient list...
-[10:07:21] [main/INFO] [jei]: Building ingredient list took 32.47 ms
-[10:07:21] [main/INFO] [jei]: Building ingredient filter...
-[10:07:21] [main/INFO] [jei]: Building ingredient filter took 183.1 ms
-[10:07:21] [main/INFO] [jei]: Building runtime...
-[10:07:21] [main/INFO] [jei]: Building runtime took 120.5 ms
-[10:07:21] [main/INFO] [jei]: Starting JEI took 992.6 ms
-[10:07:21] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 11 mods
-[10:07:21] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[10:07:21] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]: The following texture errors were found.
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN rftools
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:   domain rftools is missing 6 textures
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:     domain rftools has 1 location:
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:       mod rftools resources at .\mods\rftools-1.12-7.59.jar
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain rftools are:
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercelln.png
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercells.png
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercellw.png
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercelle.png
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercelld.png
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercellu.png
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain rftools
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
-[10:07:21] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[10:07:22] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[10:07:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[10:07:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[10:07:56] [Server thread/INFO] [mcjty.lib.varia.Logging]: Preparing all world data
-[10:07:56] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[10:07:56] [Server thread/INFO] [FML]: Applying holder lookups
-[10:07:56] [Server thread/INFO] [FML]: Holder lookups applied
-[10:07:56] [Server thread/INFO] [FML]: Loading dimension 0 (New World test) (net.minecraft.server.integrated.IntegratedServer@72d9454)
-[10:07:57] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 497 advancements
-[10:07:57] [Server thread/INFO] [FML]: Loading dimension -1 (New World test) (net.minecraft.server.integrated.IntegratedServer@72d9454)
-[10:07:57] [Server thread/INFO] [FML]: Loading dimension 1 (New World test) (net.minecraft.server.integrated.IntegratedServer@72d9454)
-[10:07:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[10:07:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 7%
-[10:07:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 12%
-[10:08:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 19%
-[10:08:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 27%
-[10:08:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 35%
-[10:08:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 41%
-[10:08:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 48%
-[10:08:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 54%
-[10:08:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%
-[10:08:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 67%
-[10:08:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 76%
-[10:08:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 86%
-[10:08:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 99%
-[10:08:11] [Server thread/INFO] [FML]: Unloading dimension -1
-[10:08:11] [Server thread/INFO] [FML]: Unloading dimension 1
-[10:08:11] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[10:08:12] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[10:08:12] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[10:08:12] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,FML@8.0.99.99,theoneprobe@1.4.14,intwheel@1.2.7,mcjtylib_ng@3.0.7,forge@14.23.5.2775,redstoneflux@2.0.0,mcp@9.42,rftools@7.59,mymod@0.0.1,jei@4.13.1.222
-[10:08:12] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[10:08:12] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[10:08:12] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player868[local:E:a2e95c01] logged in with entity id 2088 at (-125.5, 65.0, 241.5)
-[10:08:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player868 joined the game
-[10:08:14] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@60f381bb[id=49b06ace-053b-361b-9d2b-2481cac53c1e,name=Player868,properties={},legacy=false]
+[13:18:06] [main/INFO] [FML]: MinecraftForge v14.23.5.2775 Initialized
+[13:18:06] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[13:18:06] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[13:18:06] [main/INFO] [FML]: Searching C:\Users\bbond\Programming\Javascript\Tutorial\MyMod\run\.\mods for mods
+[13:18:08] [main/INFO] [FML]: Forge Mod Loader has identified 11 mods to load
+[13:18:08] [main/WARN] [FML]: ****************************************
+[13:18:08] [main/WARN] [FML]: * The API JustEnoughItemsAPI from source C:\Users\bbond\.gradle\caches\modules-2\files-2.1\mezz.jei\jei_1.12.2\4.13.1.222\f7672ddb5b7ac55ce3b49b55ad39977092737469\jei_1.12.2-4.13.1.222.jar is loaded from an incompatible classloader. THIS WILL NOT WORK!
+[13:18:08] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.ModAPIManager$APIContainer.validate(ModAPIManager.java:114)
+[13:18:08] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.ModAPIManager.registerDataTableAndParseAPI(ModAPIManager.java:174)
+[13:18:08] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.ModAPIManager.manageAPI(ModAPIManager.java:232)
+[13:18:08] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:567)
+[13:18:08] [main/WARN] [FML]: *  at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+[13:18:08] [main/WARN] [FML]: *  at net.minecraft.client.Minecraft.init(Minecraft.java:513)...
+[13:18:08] [main/WARN] [FML]: ****************************************
+[13:18:08] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 75631997 nanos
+[13:18:09] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mymod, redstoneflux, theoneprobe, intwheel, jei, mcjtylib_ng, rftools] at CLIENT
+[13:18:09] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, mymod, redstoneflux, theoneprobe, intwheel, jei, mcjtylib_ng, rftools] at SERVER
+[13:18:09] [main/ERROR] [FML]: The mod redstoneflux is expecting signature d4f1503fbacd9b9fb767720420c5395104239ec9 for source RedstoneFlux-1.12-2.0.0.1.jar, however there is no signature matching that description
+[13:18:10] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:My Mod, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:The One Probe, FMLFileResourcePack:Interaction Wheel, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:McJtyLib, FMLFileResourcePack:RFTools
+[13:18:10] [main/INFO] [FML]: Processing ObjectHolder annotations
+[13:18:10] [main/INFO] [FML]: Found 1171 ObjectHolder annotations
+[13:18:10] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[13:18:10] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[13:18:10] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[13:18:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:18:10] [main/INFO] [theoneprobe]: The One Probe Detected RedstoneFlux: enabling support
+[13:18:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2796
+[13:18:14] [main/INFO] [mcjty.lib.varia.Logging]: Could not read 'userbuilder.json', this is not an error!
+[13:18:15] [main/INFO] [FML]: OBJLoader: Domain rftools has been added.
+[13:18:15] [main/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mymod_fast_furnace`, expected `mymod`. This could be a intended override, but in most cases indicates a broken mod.
+[13:18:15] [main/INFO] [FML]: Applying holder lookups
+[13:18:15] [main/INFO] [FML]: Holder lookups applied
+[13:18:15] [main/INFO] [FML]: Applying holder lookups
+[13:18:15] [main/INFO] [FML]: Holder lookups applied
+[13:18:15] [main/INFO] [FML]: Applying holder lookups
+[13:18:15] [main/INFO] [FML]: Holder lookups applied
+[13:18:15] [main/INFO] [FML]: Applying holder lookups
+[13:18:15] [main/INFO] [FML]: Holder lookups applied
+[13:18:15] [main/INFO] [FML]: Injecting itemstacks
+[13:18:15] [main/INFO] [FML]: Itemstack injection complete
+[13:18:19] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[13:18:19] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[13:18:19] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:18:19] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[13:18:19] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[13:18:25] [main/INFO] [FML]: Max texture size: 16384
+[13:18:26] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[13:18:28] [main/INFO] [FML]: Applying holder lookups
+[13:18:28] [main/INFO] [FML]: Holder lookups applied
+[13:18:29] [main/INFO] [STDOUT]: [mcjty.lib.font.TrueTypeFont:<init>:119]: TrueTypeFont loaded: java.awt.Font[family=Ubuntu,name=Ubuntu,style=plain,size=40] - AntiAlias = false
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Enabled support for The One Probe
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Enabled support for The One Probe
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Enabled support for The Interaction Wheel
+[13:18:29] [main/INFO] [FML]: Injecting itemstacks
+[13:18:29] [main/INFO] [FML]: Itemstack injection complete
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class buildcraft.api.tools.IToolWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class resonant.core.content.ItemScrewdriver (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class ic2.core.item.tool.ItemToolWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class ic2.core.item.tool.ItemToolWrenchElectric (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mrtjp.projectred.api.IScrewdriver (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mods.railcraft.api.core.items.IToolCrowbar (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class com.bluepowermod.items.ItemScrewdriver (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class cofh.api.item.IToolHammer (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class thermalexpansion.item.tool.ItemWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class appeng.items.tools.quartz.ToolQuartzWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class crazypants.enderio.api.tool.ITool (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mekanism.api.IMekWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mcjty.rftools.items.smartwrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class pneumaticCraft.common.item.ItemPneumaticWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class powercrystals.minefactoryreloaded.api.IToolHammer (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class buildcraft.api.tools.IToolWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class resonant.core.content.ItemScrewdriver (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class ic2.core.item.tool.ItemToolWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class ic2.core.item.tool.ItemToolWrenchElectric (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mrtjp.projectred.api.IScrewdriver (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mods.railcraft.api.core.items.IToolCrowbar (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class com.bluepowermod.items.ItemScrewdriver (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class cofh.api.item.IToolHammer (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class thermalexpansion.item.tool.ItemWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class appeng.items.tools.quartz.ToolQuartzWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class crazypants.enderio.api.tool.ITool (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mekanism.api.IMekWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class mcjty.rftools.items.smartwrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class pneumaticCraft.common.item.ItemPneumaticWrench (this is not an error)
+[13:18:29] [main/INFO] [mcjty.lib.varia.Logging]: Failed to load wrench class powercrystals.minefactoryreloaded.api.IToolHammer (this is not an error)
+[13:18:29] [main/INFO] [jei]: Starting JEI...
+[13:18:29] [main/INFO] [jei]: Registering recipe categories...
+[13:18:29] [main/INFO] [jei]: Registering recipe categories took 36.94 ms
+[13:18:29] [main/INFO] [jei]: Registering mod plugins...
+[13:18:29] [main/INFO] [jei]: Registering mod plugins took 237.7 ms
+[13:18:29] [main/INFO] [jei]: Building recipe registry...
+[13:18:29] [main/INFO] [jei]: Building recipe registry took 78.72 ms
+[13:18:29] [main/INFO] [jei]: Building ingredient list...
+[13:18:29] [main/INFO] [jei]: Building ingredient list took 26.88 ms
+[13:18:29] [main/INFO] [jei]: Building ingredient filter...
+[13:18:30] [main/INFO] [jei]: Building ingredient filter took 156.7 ms
+[13:18:30] [main/INFO] [jei]: Building runtime...
+[13:18:30] [main/INFO] [jei]: Building runtime took 110.9 ms
+[13:18:30] [main/INFO] [jei]: Starting JEI took 883.3 ms
+[13:18:30] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 11 mods
+[13:18:30] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[13:18:30] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]: The following texture errors were found.
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN rftools
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:   domain rftools is missing 6 textures
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:     domain rftools has 1 location:
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:       mod rftools resources at .\mods\rftools-1.12-7.59.jar
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain rftools are:
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercelln.png
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercells.png
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercellw.png
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercelle.png
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercelld.png
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/powercellu.png
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain rftools
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[13:18:30] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[13:18:31] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[13:19:22] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[13:19:22] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[13:19:23] [Server thread/INFO] [mcjty.lib.varia.Logging]: Preparing all world data
+[13:19:23] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[13:19:23] [Server thread/INFO] [FML]: Applying holder lookups
+[13:19:23] [Server thread/INFO] [FML]: Holder lookups applied
+[13:19:23] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@6dd4819d)
+[13:19:23] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 497 advancements
+[13:19:23] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@6dd4819d)
+[13:19:24] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@6dd4819d)
+[13:19:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[13:19:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 49%
+[13:19:25] [Server thread/INFO] [FML]: Unloading dimension -1
+[13:19:25] [Server thread/INFO] [FML]: Unloading dimension 1
+[13:19:25] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[13:19:27] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[13:19:27] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[13:19:27] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,FML@8.0.99.99,theoneprobe@1.4.14,intwheel@1.2.7,mcjtylib_ng@3.0.7,forge@14.23.5.2775,redstoneflux@2.0.0,mcp@9.42,rftools@7.59,mymod@0.0.1,jei@4.13.1.222
+[13:19:27] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[13:19:27] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[13:19:27] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player805[local:E:c14a5676] logged in with entity id 422 at (-259.30138278243936, 71.0, -224.46488594801448)
+[13:19:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player805 joined the game
+[13:19:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player805 has made the advancement [Isn't It Iron Pick]
+[13:19:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player805 has made the advancement [Acquire Hardware]
+[13:19:29] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[13:19:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[13:19:29] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player805 has made the advancement [Isn't It Iron Pick]
+[13:19:29] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player805 has made the advancement [Acquire Hardware]
+[13:19:29] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@bb1bceb[id=d8673417-c4e9-3a05-9b69-9e1ec4bb9002,name=Player805,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -226,33 +220,20 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
-[10:08:15] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3574ms behind, skipping 71 tick(s)
-[10:08:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player868: Set own game mode to Spectator Mode]
-[10:08:22] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Spectator Mode
-[10:08:22] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[10:08:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World test'/overworld
-[10:08:51] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[10:08:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World test'/overworld
-[10:09:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player868: Set own game mode to Creative Mode]
-[10:09:38] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[10:09:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[10:09:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World test'/overworld
-[10:09:52] [main/INFO] [jei]: Updating ingredient filter...
-[10:09:52] [main/INFO] [jei]: Updated  ingredient filter in 0 ms
-[10:09:54] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2 advancements
-[10:11:01] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[10:11:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World test'/overworld
-[10:11:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[10:11:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[10:11:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player868 lost connection: Disconnected
-[10:11:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player868 left the game
-[10:11:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[10:11:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[10:11:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World test'/overworld
-[10:11:03] [Server thread/INFO] [FML]: Unloading dimension 0
-[10:11:03] [Server thread/INFO] [FML]: Applying holder lookups
-[10:11:03] [Server thread/INFO] [FML]: Holder lookups applied
-[10:11:03] [Server thread/INFO] [mcjty.lib.varia.Logging]: Cleaning up all world data: 1 data blobs
-[10:11:10] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[10:11:10] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[10:11:10] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[13:19:29] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 38 advancements
+[13:20:26] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[13:20:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[13:20:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:20:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[13:20:27] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player805 lost connection: Disconnected
+[13:20:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player805 left the game
+[13:20:27] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[13:20:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[13:20:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[13:20:27] [Server thread/INFO] [FML]: Unloading dimension 0
+[13:20:28] [Server thread/INFO] [FML]: Applying holder lookups
+[13:20:28] [Server thread/INFO] [FML]: Holder lookups applied
+[13:20:28] [Server thread/INFO] [mcjty.lib.varia.Logging]: Cleaning up all world data: 0 data blobs
+[13:20:29] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[13:20:29] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[13:20:29] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
