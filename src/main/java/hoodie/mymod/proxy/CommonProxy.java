@@ -7,10 +7,13 @@ import hoodie.mymod.furnace.BlockFastFurnace;
 import hoodie.mymod.furnace.TileFastFurnace;
 import hoodie.mymod.network.Messages;
 import hoodie.mymod.worldgen.BlockFancyOre;
+import hoodie.mymod.worldgen.OreGenerator;
+import hoodie.mymod.worldgen.WorldTickHandler;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -24,10 +27,13 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class CommonProxy {
     public void preInit(FMLPreInitializationEvent e) {
         Messages.registerMessages("mymod");
+        GameRegistry.registerWorldGenerator(OreGenerator.instance, 5);
+        MinecraftForge.EVENT_BUS.register(OreGenerator.instance);
     }
 
     public void init(FMLInitializationEvent e) {
         NetworkRegistry.INSTANCE.registerGuiHandler(MyMod.instance, new GuiHandler());
+        MinecraftForge.EVENT_BUS.register(WorldTickHandler.instance);
     }
 
     public void postInit(FMLPostInitializationEvent e) {
