@@ -25,16 +25,8 @@
     },
     "state": {
       "off": {},
-      "working": {
-        "textures": {
-          "north": "mymod:blocks/fast_furnace_working"
-        }
-      },
-      "nopower": {
-        "textures": {
-          "north": "mymod:blocks/fast_furnace_nopower"
-        }
-      }
+      "working": { "textures": { "north": "mymod:blocks/fast_furnace_working" } },
+      "nopower": {"textures": { "north": "mymod:blocks/fast_furnace_nopower" } }
     }
   }
 }

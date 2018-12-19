@@ -1,9 +1,13 @@
 package hoodie.mymod.furnace;
 
 import hoodie.mymod.config.FastFurnaceConfig;
+import hoodie.mymod.tools.IGuiTile;
+import hoodie.mymod.tools.IRestorableTileEntity;
 import hoodie.mymod.tools.MyEnergyStorage;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.inventory.Container;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.nbt.NBTTagCompound;
@@ -21,7 +25,7 @@ import net.minecraftforge.items.wrapper.CombinedInvWrapper;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-public class TileFastFurnace extends TileEntity implements ITickable {
+public class TileFastFurnace extends TileEntity implements ITickable, IRestorableTileEntity, IGuiTile {
 
     public static final int INPUT_SLOTS = 3;
     public static final int OUTPUT_SLOTS = 3;
@@ -36,7 +40,8 @@ public class TileFastFurnace extends TileEntity implements ITickable {
     @Override
     public void update() {
         if (!world.isRemote) {
-            if (energyStorage.getEnergyStored() < FastFurnaceConfig.RF_PER_TICK){
+
+            if (energyStorage.getEnergyStored() < FastFurnaceConfig.RF_PER_TICK) {
                 setState(FurnaceState.NOPOWER);
                 return;
             }
@@ -65,7 +70,8 @@ public class TileFastFurnace extends TileEntity implements ITickable {
         return false;
     }
 
-    private void startSmelt(){
+
+    private void startSmelt() {
         for (int i = 0 ; i < INPUT_SLOTS ; i++) {
             ItemStack result = FurnaceRecipes.instance().getSmeltingResult(inputHandler.getStackInSlot(i));
             if (!result.isEmpty()) {
@@ -79,6 +85,7 @@ public class TileFastFurnace extends TileEntity implements ITickable {
         }
         setState(FurnaceState.OFF);
     }
+
     private void attemptSmelt() {
         for (int i = 0 ; i < INPUT_SLOTS ; i++) {
             ItemStack result = FurnaceRecipes.instance().getSmeltingResult(inputHandler.getStackInSlot(i));
@@ -143,6 +150,7 @@ public class TileFastFurnace extends TileEntity implements ITickable {
         }
     }
 
+
     public void setState(FurnaceState state) {
         if (this.state != state) {
             this.state = state;
@@ -156,7 +164,8 @@ public class TileFastFurnace extends TileEntity implements ITickable {
         return state;
     }
 
-    // -------------------------------------------------------------------------------------------------------------
+
+    // ----------------------------------------------------------------------------------------
 
     // This item handler will hold our three input slots
     private ItemStackHandler inputHandler = new ItemStackHandler(INPUT_SLOTS) {
@@ -166,6 +175,7 @@ public class TileFastFurnace extends TileEntity implements ITickable {
             ItemStack result = FurnaceRecipes.instance().getSmeltingResult(stack);
             return !result.isEmpty();
         }
+
 
         @Override
         protected void onContentsChanged(int slot) {
@@ -185,6 +195,14 @@ public class TileFastFurnace extends TileEntity implements ITickable {
         }
     };
 
+    private CombinedInvWrapper combinedHandler = new CombinedInvWrapper(inputHandler, outputHandler);
+
+    // ----------------------------------------------------------------------------------------
+
+    private MyEnergyStorage energyStorage = new MyEnergyStorage(FastFurnaceConfig.MAX_POWER, FastFurnaceConfig.RF_PER_TICK_INPUT);
+
+    // ----------------------------------------------------------------------------------------
+
     @Override
     public void readFromNBT(NBTTagCompound compound) {
         super.readFromNBT(compound);
@@ -192,6 +210,7 @@ public class TileFastFurnace extends TileEntity implements ITickable {
         state = FurnaceState.VALUES[compound.getInteger("state")];
     }
 
+    @Override
     public void readRestorableFromNBT(NBTTagCompound compound) {
         if (compound.hasKey("itemsIn")) {
             inputHandler.deserializeNBT((NBTTagCompound) compound.getTag("itemsIn"));
@@ -203,14 +222,6 @@ public class TileFastFurnace extends TileEntity implements ITickable {
         energyStorage.setEnergy(compound.getInteger("energy"));
     }
 
-    private CombinedInvWrapper combinedHandler = new CombinedInvWrapper(inputHandler, outputHandler);
-
-    // -------------------------------------------------------------------------------------------------------------
-
-    private MyEnergyStorage energyStorage = new MyEnergyStorage(FastFurnaceConfig.MAX_POWER, FastFurnaceConfig.RF_PER_TICK_INPUT);
-
-    // -------------------------------------------------------------------------------------------------------------
-
     @Override
     public NBTTagCompound writeToNBT(NBTTagCompound compound) {
         super.writeToNBT(compound);
@@ -219,6 +230,7 @@ public class TileFastFurnace extends TileEntity implements ITickable {
         return compound;
     }
 
+    @Override
     public void writeRestorableToNBT(NBTTagCompound compound) {
         compound.setTag("itemsIn", inputHandler.serializeNBT());
         compound.setTag("itemsOut", outputHandler.serializeNBT());
@@ -229,6 +241,16 @@ public class TileFastFurnace extends TileEntity implements ITickable {
     public boolean canInteractWith(EntityPlayer playerIn) {
         // If we are too far away from this tile entity you cannot use it
         return !isInvalid() && playerIn.getDistanceSq(pos.add(0.5D, 0.5D, 0.5D)) <= 64D;
+    }
+
+    @Override
+    public Container createContainer(EntityPlayer player) {
+        return new ContainerFastFurnace(player.inventory, this);
+    }
+
+    @Override
+    public GuiContainer createGui(EntityPlayer player) {
+        return new GuiFastFurnace(this, new ContainerFastFurnace(player.inventory, this));
     }
 
     @Override
@@ -258,4 +280,6 @@ public class TileFastFurnace extends TileEntity implements ITickable {
         }
         return super.getCapability(capability, facing);
     }
+
+
 }

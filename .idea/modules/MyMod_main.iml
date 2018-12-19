@@ -21,7 +21,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/deobf/mezz/jei/jei_1.12.2/4.13.1.222/jei_1.12.2-4.13.1.222.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../.gradle/minecraft/forgeSrc-1.12.2-14.23.5.2775-PROJECT(MyMod).jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -30,7 +30,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../.gradle/minecraft/forgeSrc-1.12.2-14.23.5.2775-PROJECT(MyMod).jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/deobfedDeps/deobf/mezz/jei/jei_1.12.2/4.13.1.222/jei_1.12.2-4.13.1.222.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
