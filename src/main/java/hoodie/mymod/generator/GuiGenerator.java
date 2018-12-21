@@ -5,6 +5,8 @@ import hoodie.mymod.config.GeneratorConfig;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.util.ResourceLocation;
 
+import java.util.Collections;
+
 public class GuiGenerator extends GuiContainer {
 
     public static final int WIDTH = 180;
@@ -27,7 +29,7 @@ public class GuiGenerator extends GuiContainer {
         mc.getTextureManager().bindTexture(background);
         drawTexturedModalRect(guiLeft, guiTop, 0, 0, xSize, ySize);
 
-        int energy = 0;//furnace.getClientEnergy();
+        int energy = furnace.getClientEnergy();
         drawEnergyBar(energy);
 
 //        if (furnace.getClientProgress() > 0) {
@@ -43,7 +45,7 @@ public class GuiGenerator extends GuiContainer {
         renderHoveredToolTip(mouseX, mouseY);
 
         if (mouseX > guiLeft + 10 && mouseX < guiLeft + 112 && mouseY > guiTop + 5 && mouseY < guiTop + 15) {
-//            drawHoveringText(Collections.singletonList("Energy: " + furnace.getClientEnergy()), mouseX, mouseY, fontRenderer);
+            drawHoveringText(Collections.singletonList("Energy: " + furnace.getClientEnergy()), mouseX, mouseY, fontRenderer);
         }
     }
 

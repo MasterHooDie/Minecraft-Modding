@@ -1,13 +1,12 @@
 package hoodie.mymod;
 
+import hoodie.mymod.generator.DamageTracker;
 import hoodie.mymod.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.*;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = MyMod.MODID, name = MyMod.MODNAME, version = MyMod.MODVERSION, dependencies = "required-after:forge@[14.23.5.2768,)", useMetadata = true)
@@ -47,4 +46,15 @@ public class MyMod {
     public void postInit(FMLPostInitializationEvent e) {
         proxy.postInit(e);
     }
+
+    @Mod.EventHandler
+    public void serverStarted(FMLServerStartedEvent event) {
+        DamageTracker.instance.reset();
+    }
+
+    @Mod.EventHandler
+    public void serverStopped(FMLServerStoppedEvent event) {
+        DamageTracker.instance.reset();
+    }
+
 }
