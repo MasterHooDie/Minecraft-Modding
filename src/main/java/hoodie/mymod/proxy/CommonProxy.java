@@ -3,6 +3,7 @@ package hoodie.mymod.proxy;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.util.concurrent.ListenableFuture;
 import hoodie.mymod.ModBlocks;
+import hoodie.mymod.ModEntities;
 import hoodie.mymod.ModItems;
 import hoodie.mymod.MyMod;
 import hoodie.mymod.generator.DamageTracker;
@@ -32,10 +33,13 @@ import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
 public class CommonProxy {
+
     public void preInit(FMLPreInitializationEvent e) {
         Messages.registerMessages("mymod");
         GameRegistry.registerWorldGenerator(OreGenerator.instance, 5);
         MinecraftForge.EVENT_BUS.register(OreGenerator.instance);
+
+        ModEntities.init();
     }
 
     public void init(FMLInitializationEvent e) {

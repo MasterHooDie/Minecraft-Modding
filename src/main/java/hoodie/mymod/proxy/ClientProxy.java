@@ -3,6 +3,7 @@ package hoodie.mymod.proxy;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.util.concurrent.ListenableFuture;
 import hoodie.mymod.ModBlocks;
+import hoodie.mymod.ModEntities;
 import hoodie.mymod.ModItems;
 import hoodie.mymod.MyMod;
 import net.minecraft.client.Minecraft;
@@ -30,6 +31,7 @@ public class ClientProxy extends CommonProxy {
     public static void registerModels(ModelRegistryEvent event) {
         ModBlocks.initModels();
         ModItems.initModels();
+        ModEntities.initModels();
     }
 
     @Override
