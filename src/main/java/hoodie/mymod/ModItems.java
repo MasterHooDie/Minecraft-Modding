@@ -3,6 +3,7 @@ package hoodie.mymod;
 import hoodie.mymod.furnace.BlockFastFurnace;
 import hoodie.mymod.generator.BlockGenerator;
 import hoodie.mymod.items.ItemFancyIngot;
+import hoodie.mymod.puzzle.BlockPuzzle;
 import hoodie.mymod.worldgen.BlockFancyOre;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -25,6 +26,7 @@ public class ModItems {
     public static void register(IForgeRegistry<Item> registry) {
         registry.register(new ItemBlock(ModBlocks.blockFastFurnace).setRegistryName(BlockFastFurnace.FAST_FURNACE));
         registry.register(new ItemBlock(ModBlocks.blockGenerator).setRegistryName(BlockGenerator.GENERATOR));
+        registry.register(new ItemBlock(ModBlocks.blockPuzzle).setRegistryName(BlockPuzzle.PUZZLE));
         registry.register(
                 new ItemBlock(ModBlocks.blockFancyOre) {
                     @Override
