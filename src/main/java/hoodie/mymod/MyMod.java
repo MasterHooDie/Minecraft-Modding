@@ -4,6 +4,7 @@ import hoodie.mymod.generator.DamageTracker;
 import hoodie.mymod.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.*;
@@ -25,6 +26,11 @@ public class MyMod {
             return new ItemStack(ModBlocks.blockFastFurnace);
         }
     };
+
+    public MyMod() {
+        // This has to be done VERY early
+        FluidRegistry.enableUniversalBucket();
+    }
 
     @Mod.Instance
     public static MyMod instance;

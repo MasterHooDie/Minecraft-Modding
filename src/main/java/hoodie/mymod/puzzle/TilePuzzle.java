@@ -127,7 +127,7 @@ public class TilePuzzle extends TileEntity implements ITickable {
                 TileEntity te = world.getTileEntity(todoPos);
                 if (te instanceof TilePuzzle && state.getBlock() == ModBlocks.blockPuzzle && state.getValue(BlockPuzzle.FACING) == thisFacing) {
                     gameblocks.add(todoPos);
-                    // Add connected positions to the todo
+                    // Add connected positions to the  todo
                     for (EnumFacing facing : EnumFacing.VALUES) {
                         if (facing.getAxis() != thisFacing.getAxis()) {
                             BlockPos newPos = todoPos.offset(facing);

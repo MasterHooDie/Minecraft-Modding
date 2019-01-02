@@ -1,5 +1,6 @@
 package hoodie.mymod;
 
+import hoodie.mymod.fload.BlockFload;
 import hoodie.mymod.furnace.BlockFastFurnace;
 import hoodie.mymod.furnace.TileFastFurnace;
 import hoodie.mymod.generator.BlockGenerator;
@@ -27,6 +28,8 @@ public class ModBlocks {
     @GameRegistry.ObjectHolder("mymod:puzzle")
     public static BlockPuzzle blockPuzzle;
 
+    @GameRegistry.ObjectHolder("mymod:fload")
+    public static BlockFload blockFload;
 
     @SideOnly(Side.CLIENT)
     public static void initModels() {
@@ -34,6 +37,7 @@ public class ModBlocks {
         blockGenerator.initModel();
         blockFancyOre.initModel();
         blockPuzzle.initModel();
+        blockFload.initModel();
     }
 
     public static void register(IForgeRegistry<Block> registry) {
@@ -47,6 +51,7 @@ public class ModBlocks {
         GameRegistry.registerTileEntity(TilePuzzle.class, MyMod.MODID + "_puzzle");
 
         registry.register(new BlockFancyOre());
+        registry.register(new BlockFload());
     }
 
 }

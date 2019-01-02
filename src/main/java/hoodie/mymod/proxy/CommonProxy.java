@@ -2,10 +2,7 @@ package hoodie.mymod.proxy;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.util.concurrent.ListenableFuture;
-import hoodie.mymod.ModBlocks;
-import hoodie.mymod.ModEntities;
-import hoodie.mymod.ModItems;
-import hoodie.mymod.MyMod;
+import hoodie.mymod.*;
 import hoodie.mymod.generator.DamageTracker;
 import hoodie.mymod.network.Messages;
 import hoodie.mymod.worldgen.OreGenerator;
@@ -40,6 +37,7 @@ public class CommonProxy {
         MinecraftForge.EVENT_BUS.register(OreGenerator.instance);
 
         ModEntities.init();
+        ModLiquids.init();
     }
 
     public void init(FMLInitializationEvent e) {
