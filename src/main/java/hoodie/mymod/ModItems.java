@@ -1,5 +1,6 @@
 package hoodie.mymod;
 
+import hoodie.mymod.floader.BlockFloader;
 import hoodie.mymod.furnace.BlockFastFurnace;
 import hoodie.mymod.generator.BlockGenerator;
 import hoodie.mymod.items.ItemFancyIngot;
@@ -29,6 +30,7 @@ public class ModItems {
         registry.register(new ItemBlock(ModBlocks.blockGenerator).setRegistryName(BlockGenerator.GENERATOR));
         registry.register(new ItemBlock(ModBlocks.blockPuzzle).setRegistryName(BlockPuzzle.PUZZLE));
         registry.register(new ItemBlock(ModBlocks.blockTank).setRegistryName(BlockTank.TANK));
+        registry.register(new ItemBlock(ModBlocks.blockFloader).setRegistryName(BlockFloader.FLOADER));
         registry.register(
                 new ItemBlock(ModBlocks.blockFancyOre) {
                     @Override
